@@ -1,0 +1,13 @@
+<div class="movie-grid">
+    <mat-card *ngFor="let movie of movies">
+      <mat-card-title>{{ movie.title }}</mat-card-title>
+      <img [src]="movie.posterUrl" alt="{{ movie.title }}" width="150">
+      <mat-card-subtitle>{{ movie.genre | genreName }}</mat-card-subtitle>
+      <mat-card-content>
+        <p>Hossz: {{ movie.duration }} perc</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button color="primary" (click)="onSelect(movie)">Jegyvásárlás</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
