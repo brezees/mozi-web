@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/mozi-web",
+    "public": "dist/mozi-web/browser",
     "ignore": [
       "firebase.json",
       "**/.*",

@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "mozijegy-projekt"
-  }
+    "default": "mozi-web",
+    "mozi-web": "mozi-web"
+  },
+  "targets": {},
+  "etags": {}
 }
